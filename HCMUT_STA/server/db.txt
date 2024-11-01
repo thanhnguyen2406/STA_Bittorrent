@@ -1,0 +1,10 @@
+CREATE TABLE peers (
+    peers_ip VARCHAR(255),
+    peers_port VARCHAR(255),
+    peers_hostname VARCHAR(255),
+    file_name VARCHAR(255),
+    file_size VARCHAR(255),
+    piece_hash VARCHAR(255),
+    piece_size VARCHAR(255),
+    num_order_in_file VARCHAR(255)
+);
